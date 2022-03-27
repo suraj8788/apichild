@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Parent from "./Parents";
+import Child from "./Child";
+import ChildA from "./ChildA";
+import MuiT from "./MuiT"
+import Muis from "./Muis"
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Parent/> */}
+    <MuiT/>
   </React.StrictMode>,
   document.getElementById('root')
 );
